@@ -8,6 +8,7 @@ class keyboard {
     }
 }
 
+// JSON file location, generated file with word and hint pairs
 const fetch_file_location = "data/words.json";
 
 async function getRandomHangmanWord() {
